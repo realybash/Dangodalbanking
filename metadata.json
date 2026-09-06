@@ -1,0 +1,6 @@
+{
+  "name": "Dan Godal savings",
+  "description": "Secure, 100% offline-first ledger and dashboard for local community savings. Works without internet using local storage and PWA service workers for air-gapped financial management.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,110 @@
+src/components/ApprovalsTab.tsx:215:                    key={`${cust.id}-${idx}`}
+src/components/ApprovalsTab.tsx:292:                  key={`${cust.id}-${idx}`}
+src/components/ApprovalsTab.tsx:404:                            key={`${tx.id}-${idx}`} 
+src/components/Breadcrumb.tsx:17:        <React.Fragment key={index}>
+src/components/CustomersTab.tsx:770:                    <option key={`${s.id}-${idx}`} value={s.id}>{s.name} ({s.initials}) — {s.role}</option>
+src/components/CustomersTab.tsx:1087:                    <option key={`${s.id}-${idx}`} value={s.id}>
+src/components/CustomersTab.tsx:1118:                      key={tab}
+src/components/CustomersTab.tsx:1359:                      key={h.id}
+src/components/CustomersTab.tsx:1541:                      <div key={`${evt.id}-${idx}`} className="relative group">
+src/components/CustomersTab.tsx:1729:                            <div key={`${evt.id}-${idx}`} className="relative group">
+src/components/CustomersTab.tsx:1953:                    key={st}
+src/components/CustomersTab.tsx:2011:                <option key={`${s.id}-${idx}`} value={s.id}>
+src/components/CustomersTab.tsx:2126:                    <option key={`${s.id}-${idx}`} value={s.id}>{s.name} ({s.code || s.initials}) [ID: {s.id}]</option>
+src/components/CustomersTab.tsx:2430:                key={`${c.id}-${idx}`}
+src/components/CustomersTab.tsx:2647:                        key={tpl.key}
+src/components/CustomersTab.tsx:2742:                        <div key={`notif-log-${lidx}`} className="flex gap-1.5 items-start">
+src/components/GatewayScreen.tsx:1340:            key="customer-disabled-portal"
+src/components/GatewayScreen.tsx:1692:                            key={val}
+src/components/GatewayScreen.tsx:1844:            key="customer-select"
+src/components/GatewayScreen.tsx:1874:                      key={`${c.id}-${index}`}
+src/components/GatewayScreen.tsx:1909:            key="customer-unified-portal"
+src/components/GatewayScreen.tsx:2243:                              key={idx}
+src/components/GatewayScreen.tsx:2311:                              key={keyIdx}
+src/components/GatewayScreen.tsx:2325:                              key={keyIdx}
+src/components/GatewayScreen.tsx:2336:                            key={keyIdx}
+src/components/GatewayScreen.tsx:2452:                            key={val}
+src/components/GatewayScreen.tsx:2630:                          key={idx}
+src/components/GatewayScreen.tsx:2668:                          key={keyIdx}
+src/components/GatewayScreen.tsx:2678:                          key={keyIdx}
+src/components/GatewayScreen.tsx:2689:                        key={keyIdx}
+src/components/GatewayScreen.tsx:2976:                          key={idx}
+src/components/GatewayScreen.tsx:3045:                          key={keyIdx}
+src/components/GatewayScreen.tsx:3059:                          key={keyIdx}
+src/components/GatewayScreen.tsx:3070:                        key={keyIdx}
+src/components/GatewayScreen.tsx:3267:            key="customer-dashboard"
+src/components/GatewayScreen.tsx:3563:                      key={item.label} 
+src/components/GatewayScreen.tsx:3672:                        key={day + dIdx} 
+src/components/GatewayScreen.tsx:3699:                          key={`${tx.id}-${index}`} 
+src/components/GatewayScreen.tsx:3862:                          key={timeframe}
+src/components/GatewayScreen.tsx:3883:                          key={type}
+src/components/GatewayScreen.tsx:3984:                          key={`${tx.id}-${index}`} 
+src/components/GatewayScreen.tsx:4099:                          key={`${log.id}-${lidx}`} 
+src/components/GatewayScreen.tsx:4243:                          key={color}
+src/components/GatewayScreen.tsx:4748:                                key={p} 
+src/components/GatewayScreen.tsx:5112:                              key={tab}
+src/components/GatewayScreen.tsx:5515:                  <div key={mod} className="fixed inset-0 bg-black/85 backdrop-blur-xs z-50 flex items-center justify-center p-4 overflow-y-auto">
+src/components/GatewayScreen.tsx:5886:            key="customer-register"
+src/components/GatewayScreen.tsx:6101:                          key={val}
+src/components/Header.tsx:308:                             key={idx}
+src/components/Header.tsx:362:                            key={`${c.id}-${idx}`}
+src/components/Header.tsx:385:                            key={`${s.id}-${idx}`}
+src/components/Header.tsx:431:                                key={`${c.id}-${idx}`} 
+src/components/Header.tsx:491:                                key={`${s.id}-${idx}`} 
+src/components/Header.tsx:553:                                  key={`${t.id}-${idx}`} 
+src/components/ManagerAccessScreen.tsx:525:                key="signin"
+src/components/ManagerAccessScreen.tsx:727:                              <div key={index} className="relative flex items-center justify-center">
+src/components/ManagerAccessScreen.tsx:806:                        key={num}
+src/components/ManagerAccessScreen.tsx:864:                key="signup"
+src/components/OverviewTab.tsx:992:                              key={`${cust.id}-${idx}`}
+src/components/OverviewTab.tsx:1070:                      <option key={`${s.id}-${idx}`} value={s.id}>
+src/components/OverviewTab.tsx:1237:                              key={`${cust.id}-${idx}`}
+src/components/OverviewTab.tsx:1400:                      <option key={`${s.id}-${idx}`} value={s.id}>
+src/components/OverviewTab.tsx:1541:                      <option key={`${s.id}-${idx}`} value={s.id}>{s.name} ({s.code || s.initials})</option>
+src/components/OverviewTab.tsx:2047:                <div key={`${plan.id}-${index}`} className="bg-zinc-950/95 border border-zinc-900 hover:border-zinc-805 rounded-2xl p-4 flex flex-col justify-between gap-3.5 group relative overflow-hidden transition-all">
+src/components/OverviewTab.tsx:2231:                  <div key={`${log.id}-${index}`} className="flex flex-col gap-1 pb-2 border-b border-zinc-950 leading-relaxed text-left">
+src/components/OverviewTab.tsx:2525:                    <tr key={`${tx.id}-${index}`} className="hover:bg-zinc-850/20 transition-colors group/row">
+src/components/OverviewTab.tsx:2838:                    <tr key={`${s.id}-${index}`} className="hover:bg-zinc-850/25 transition-colors group/row">
+src/components/OverviewTab.tsx:2946:                    <div key={`${member.id}-${index}`} className="p-4 flex items-center justify-between hover:bg-zinc-850/50 transition-colors">
+src/components/PasswordStrengthMeter.tsx:27:          <div key={i} className={`flex-1 rounded-full ${i < strength ? colors[Math.min(strength - 1, 4)] : 'bg-zinc-800'}`} />
+src/components/ReportsTab.tsx:294:                <g key={i}>
+src/components/ReportsTab.tsx:471:                    <tr key={`${log.id}-${index}`} className="group hover:bg-zinc-950/40 transition-colors">
+src/components/ReportsTab.tsx:568:                      key={pgNum}
+src/components/ReportsTab.tsx:696:                      key={`${log.id}-${index}`} 
+src/components/ReportsTab.tsx:794:                      key={pgNum}
+src/components/SettingsTab.tsx:752:                    <option key={`${c.id}-${idx}`} value={c.accountNumber}>
+src/components/SettingsTab.tsx:931:              <div key={`${log.id}-${index}`} className="mb-3 border-b border-zinc-800 pb-2 flex justify-between items-start">
+src/components/StaffPortalScreen.tsx:925:            key="combined-login"
+src/components/StaffPortalScreen.tsx:1059:                          key={idx}
+src/components/StaffPortalScreen.tsx:1082:                      key={num}
+src/components/StaffPortalScreen.tsx:1095:                      key={num}
+src/components/StaffPortalScreen.tsx:1108:                      key={num}
+src/components/StaffPortalScreen.tsx:1148:            key="set-pin"
+src/components/StaffPortalScreen.tsx:1218:                      key={idx}
+src/components/StaffPortalScreen.tsx:1241:                      key={num}
+src/components/StaffPortalScreen.tsx:1254:                      key={num}
+src/components/StaffPortalScreen.tsx:1267:                      key={num}
+src/components/StaffPortalScreen.tsx:1302:            key="staff-dashboard-main"
+src/components/StaffPortalScreen.tsx:1400:                      key={tab}
+src/components/StaffPortalScreen.tsx:1536:                              key={`${c.id}-${index}`}
+src/components/StaffPortalScreen.tsx:1638:                          key={`${c.id}-${index}`}
+src/components/StaffPortalScreen.tsx:2047:                                      key={val}
+src/components/StaffPortalScreen.tsx:2145:                                      key={tab}
+src/components/StaffPortalScreen.tsx:2443:                          key={`${c.id}-${index}`}
+src/components/StaffPortalScreen.tsx:3252:                              key={`${tx.id}-${index}`}
+src/components/StaffPortalScreen.tsx:3956:                              key={timeframe}
+src/components/StaffPortalScreen.tsx:3980:                                key={type}
+src/components/StaffPortalScreen.tsx:4127:                              key={`${tx.id}-${index}`}
+src/components/StaffPortalScreen.tsx:4387:                      key={i}
+src/components/StaffTab.tsx:623:                      key={perm.id}
+src/components/StaffTab.tsx:740:                        key={`${c.id}-${idx}`}
+src/components/StaffTab.tsx:1260:                          key={timeframe}
+src/components/StaffTab.tsx:1277:                          key={type}
+src/components/StaffTab.tsx:1359:                          key={`${t.id}-${idx}`}
+src/components/StaffTab.tsx:1462:                key={roleOption}
+src/components/StaffTab.tsx:1748:                            <div key={`${cust.id}-${idx}`} className="bg-amber-950/10 border border-amber-900/15 p-3 rounded-xl flex items-center justify-between gap-3 font-sans">
+src/components/StaffTab.tsx:1775:                              <div key={`${tx.id}-${idx}`} className="bg-[#090a09] border border-zinc-900/60 p-3 rounded-xl flex items-center justify-between gap-3 text-left animate-fade-in">
+src/components/StaffTab.tsx:1902:                    <div key={`${sp.member.id}-${idx}`} className="flex flex-col gap-2 bg-black/15 p-3 rounded-xl border border-zinc-900/40 hover:border-zinc-800/60 transition-colors">
+src/components/StaffTab.tsx:1967:                key={`${member.id}-${idx}`} 
+src/components/ToastProvider.tsx:41:              key={toast.id}
+src/components/WithdrawalsTab.tsx:91:                    <tr key={`${w.id}-${idx}`} className="hover:bg-zinc-850/20 transition-colors">

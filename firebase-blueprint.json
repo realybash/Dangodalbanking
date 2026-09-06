@@ -1,0 +1,114 @@
+{
+  "entities": {
+    "Settings": {
+      "title": "Settings",
+      "description": "Global application settings for the organization",
+      "type": "object",
+      "properties": {
+        "orgName": { "type": "string" },
+        "isLive": { "type": "boolean" },
+        "dailyTargetSavings": { "type": "number" },
+        "currencySymbol": { "type": "string" },
+        "platformCommissionRate": { "type": "number" },
+        "defaultSlotValue": { "type": "number" },
+        "withdrawalHoldLimit": { "type": "number" },
+        "minBalanceThreshold": { "type": "number" },
+        "partnerBankName": { "type": "string" },
+        "gatewayMode": { "type": "string" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      }
+    },
+    "Staff": {
+      "title": "Staff Member",
+      "description": "A field staff member or administrator",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "managerId": { "type": "string" },
+        "initials": { "type": "string" },
+        "phoneNumber": { "type": "string" },
+        "email": { "type": "string" },
+        "status": { "type": "string", "enum": ["active", "inactive"] },
+        "joinedDate": { "type": "string" },
+        "role": { "type": "string" },
+        "pin": { "type": "string" },
+        "location": { "type": "string" },
+        "code": { "type": "string" },
+        "collectionsToday": { "type": "number" },
+        "collectionsCount": { "type": "number" },
+        "totalCollectionsAmount": { "type": "number" }
+      },
+      "required": ["id", "name", "email", "pin", "role"]
+    },
+    "Customer": {
+      "title": "Customer",
+      "description": "A savings group customer",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "phoneNumber": { "type": "string" },
+        "balance": { "type": "number" },
+        "assignedStaffId": { "type": "string" },
+        "status": { "type": "string" },
+        "joinedDate": { "type": "string" },
+        "accountNumber": { "type": "string" },
+        "location": { "type": "string" },
+        "contributionsCount": { "type": "number" }
+      },
+      "required": ["id", "name", "phoneNumber", "accountNumber"]
+    },
+    "Transaction": {
+      "title": "Transaction",
+      "description": "A financial transaction (deposit/withdrawal)",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "customerId": { "type": "string" },
+        "customerName": { "type": "string" },
+        "staffId": { "type": "string" },
+        "staffName": { "type": "string" },
+        "type": { "type": "string", "enum": ["deposit", "withdrawal"] },
+        "amount": { "type": "number" },
+        "status": { "type": "string", "enum": ["pending", "approved", "rejected"] },
+        "timestamp": { "type": "string", "format": "date-time" },
+        "reference": { "type": "string" }
+      },
+      "required": ["id", "customerId", "amount", "type", "status"]
+    },
+    "Manager": {
+      "title": "Manager Account",
+      "description": "An administrative manager credentials profile",
+      "type": "object",
+      "properties": {
+        "email": { "type": "string" },
+        "pin": { "type": "string" },
+        "password": { "type": "string" }
+      },
+      "required": ["email"]
+    }
+  },
+  "firestore": {
+    "/settings/global": {
+      "schema": "Settings",
+      "description": "Global application config"
+    },
+    "/staff/{staffId}": {
+      "schema": "Staff",
+      "description": "Staff member collection"
+    },
+    "/customers/{customerId}": {
+      "schema": "Customer",
+      "description": "Customer accounts"
+    },
+    "/transactions/{transactionId}": {
+      "schema": "Transaction",
+      "description": "All transactions"
+    },
+    "/managers/{managerId}": {
+      "schema": "Manager",
+      "description": "Registered administrator/manager accounts"
+    }
+  }
+}

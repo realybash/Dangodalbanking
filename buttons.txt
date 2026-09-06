@@ -1,0 +1,7 @@
+3687:                    <button onClick={() => setCustTab('history')} className={`text-[11px] font-black ${tg.text} hover:underline cursor-pointer`}>See all</button>
+4637:              <button onClick={() => setCustTab('home')} className={`flex flex-col items-center justify-center py-1.2 px-3 rounded-xl transition-all cursor-pointer ${custTab === 'home' ? 'text-[#14cfb4] font-black' : 'text-zinc-555'}`}>
+4641:              <button onClick={() => setCustTab('history')} className={`flex flex-col items-center justify-center py-1.2 px-3 rounded-xl transition-all cursor-pointer ${custTab === 'history' ? 'text-[#14cfb4] font-black' : 'text-zinc-555'}`}>
+4657:              <button onClick={() => setCustTab('alerts')} className={`flex flex-col items-center justify-center py-1.2 px-3 rounded-xl transition-all cursor-pointer relative ${custTab === 'alerts' ? 'text-[#14cfb4] font-black' : 'text-zinc-555'}`}>
+4666:              <button onClick={() => setCustTab('profile')} className={`flex flex-col items-center justify-center py-1.2 px-3 rounded-xl transition-all cursor-pointer ${custTab === 'profile' ? 'text-[#14cfb4] font-black' : 'text-zinc-555'}`}>
+5366:                      <button onClick={() => setShowSendMoneyModal(false)} className="text-zinc-450">✕</button>
+5793:                        <button onClick={close} className="w-full py-2.5 bg-zinc-900 hover:bg-zinc-850 border border-zinc-800 text-zinc-300 font-extrabold text-[11px] rounded-lg mt-4 cursor-pointer">Dismiss</button>
